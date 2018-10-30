@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:id="@+id/places_layout"
+    android:background="@drawable/border">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    >
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:id="@+id/imageView"
+            android:scaleType="centerCrop"
+            />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70000000"
+        >
+        <TextView
+            android:layout_above="@+id/addressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleTextView"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif-light"/>
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/addressTextView"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"/>
+    </RelativeLayout>
+</RelativeLayout
+>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionTextView"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:visibility="gone"
+        android:fontFamily="sans-serif-light"
+        />
+</LinearLayout>

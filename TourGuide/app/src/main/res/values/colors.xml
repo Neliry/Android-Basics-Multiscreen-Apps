@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#546E7A</color>
+    <color name="colorPrimaryDark">#263238</color>
+
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="category_museums">#7E57C2</color>
+
+    <color name="category_parks">#8BC34A</color>
+
+    <color name="category_monuments">#4FC3F7</color>
+
+    <color name="category_restaurants">#F48FB1</color>
+
+</resources>
